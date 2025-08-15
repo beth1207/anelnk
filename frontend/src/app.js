@@ -5,7 +5,7 @@ import ChatBot from './components/ChatBot/ChatBot';
 import Dashboard from './components/Dashboard/Dashboard';
 import Analytics from './components/Analytics/Analytics';
 import CLInterface from './components/CLI/CLInterface';
-import Sidebar from './components/Dashboard/Sidebar';
+import Sidebar from './components/Sidebar/Sidebar';
 
 function App() {
   return (

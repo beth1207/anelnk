@@ -16,7 +16,9 @@
     "openai": "^5.12.2",
     "passport": "^0.7.0",
     "passport-oauth2": "^1.8.0",
+    "uuid": "^11.1.0",
     "winston": "^3.17.0",
     "xss-clean": "^0.1.4"
+    
   }
 }

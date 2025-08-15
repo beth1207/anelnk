@@ -15,10 +15,8 @@ const CLInterface = () => {
     e.preventDefault();
     if (!input.trim()) return;
 
-    // Add user input to output
     setOutput(prev => [...prev, { type: 'input', text: input }]);
     
-    // Process commands
     const [command, ...args] = input.split(' ');
     
     if (commands[command]) {
